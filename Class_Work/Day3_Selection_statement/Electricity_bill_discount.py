@@ -8,8 +8,8 @@ be paid.
 ----------------------------------------------------------
 Sample Input 1 
 Enter the electricity bill amount: 6200 
-Sample Output 1 
 ----------------------------------------------------------
+Sample Output 1 
 Discount Applied! 
 Final Bill Amount: ₹5580.0 
 ----------------------------------------------------------
@@ -25,7 +25,7 @@ Final Bill Amount: ₹4200
 bill_amount= float(input("Enter the electricity bill amount (in rupees): "))
 #-------------Validating the bill amount----------------
 if bill_amount < 0:
-    print(" Enter a positive value.")
+    exit(" Enter a positive value.")
 #-------------------------------------------------------
 if bill_amount >= 5000:
     discount = bill_amount * 0.10
