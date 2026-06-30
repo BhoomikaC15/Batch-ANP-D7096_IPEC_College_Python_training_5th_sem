@@ -16,6 +16,8 @@ Enter Students per Row: 4
 --------------------------------------------------------------
 Sample Output:
 Number of Complete Rows: 6
+--------------------------------------------------------------
+--------------------------------------Coding----------------------------------------
 '''
 total_students = int(input("Enter Total Students: "))
 students_per_row = int(input("Enter Students per Row: "))
