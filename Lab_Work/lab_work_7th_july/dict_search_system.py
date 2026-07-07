@@ -18,7 +18,7 @@ The main program should:
 def search_student(student_dict, roll_no):
     return student_dict.get(roll_no, "Student Not Found")
 
-#-----------------------main program---------------------------------
+#-----------------------main program-----------------------------
 print("-----------------------------------------------------------")
 student_dict = {
     101: "Alice",
