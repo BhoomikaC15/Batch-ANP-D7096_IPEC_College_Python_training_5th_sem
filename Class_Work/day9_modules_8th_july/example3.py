@@ -1,9 +1,9 @@
-#---------------------------imorting module usinf from keyword-----------------------------
-# importing the module  
+#----------------------------importing module with specific function name-----------------------------
+# importing the module
 from numeric_calculator import add, subtract, multiply, divide, remainder
 #----------------------------------------------------------
 a = 12
-b = 6
+b = -6
 
 print("----------------------------------------------")
 # calling the add function from the module
